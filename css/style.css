@@ -14,7 +14,7 @@ body
     position: sticky;
     background: #fff;
     margin-bottom: 20px;
-    border-bottom: 3px solid orange;
+    border-bottom: 3px solid #55c57a;
     z-index: 2;
 }
 .logo
@@ -26,7 +26,7 @@ body
 {
     margin-top: 9px;
     margin-left: 30px;
-    border: 1px solid orange !important;
+    border: 1px solid #55c57a !important;
     border-top-left-radius: 20px !important;
     border-bottom-left-radius: 20px !important;
     border-top-right-radius: 0 !important;
@@ -36,8 +36,8 @@ body
 }
 .input-group-text
 {
-    background: orange !important;
-    border: 1px solid orange !important;
+    background: #55c57a !important;
+    border: 1px solid #55c57a !important;
     margin: 8.5px 10px 3px 0 !important;
     border-top-left-radius: 0px !important;
     border-bottom-left-radius: 0px !important;
@@ -72,7 +72,7 @@ body
     list-style-type: none;
     padding: 10px 10px;
     text-align: center;
-    background-color: orange;
+    background-color: #55c57a;
     cursor: pointer;
 }
 .menu-bar ul li a
@@ -139,7 +139,7 @@ body
 }
 .side-menu ul li:hover
 {
-    color: orange;
+    color: #55c57a;
 }
 .side-menu ul li ul
 {
@@ -167,7 +167,7 @@ body
 {
     font-size: 30px;
     margin: 10px;
-    color: orange;
+    color: #55c57a;
     display: none;
 }
 
@@ -243,7 +243,7 @@ body
 
 .title-box
 {
-    background: orange;
+    background: #55c57a;
     color: #fff;
     width: 180px;
     padding: 4px 10px;
@@ -258,7 +258,7 @@ body
 .title-box::after
 {
     content: '';
-    border-top: 40px solid orange;
+    border-top: 40px solid #55c57a;
     border-right: 50px solid transparent;
     position: absolute;
     display: flex;
@@ -309,7 +309,7 @@ body
 
 .product-bottom .fa
 {
-    color: orange;
+    color: #55c57a;
     font-size: 10px;
 }
 .product-bottom h3
@@ -373,7 +373,7 @@ body
 }
 .fa-heart-o
 {
-    color: red;
+    
     font-size: 15px;
 }
 .footer hr
@@ -412,11 +412,11 @@ body
 }
 .single-product .fa
 {
-    color: orange;
+    color: #55c57a;
 }
 .single-product .price
 {
-    color: orange;
+    color: #55c57a;
     font-size: 26px;
     font-weight: bold;
     padding-top: 20px;
@@ -432,7 +432,7 @@ body
 
 .single-product .btn-primary
 {
-    background: orange !important;
+    background: #55c57a !important;
     color: #fff;
     font-size: 15px;
     margin-left: 20px;
@@ -443,7 +443,7 @@ body
 .product-description h6
 {
     margin-top: 50px;
-    color: orange;
+    color: #55c57a;
 }
 .product-description p
 {
@@ -454,9 +454,109 @@ body
     margin-bottom: 50px;
 }
 
+/*----------------------new css----------------*/
+ .form-group {
+    margin-bottom: 30px
+}
+.form-control {
+    height: 50px;
+    border-color: #f0e9ff;
+    font-size: 13px;
+    color: #999999;
+    padding-left: 20px;
+    border-radius: 0;
+    border-right: 0
+}
+.form-contact label {
+    color: #71cd14;
+    font-size: 14px
+}
 
+.form-contact .form-group {
+    margin-bottom: 15px
+}
 
+@media (min-width: 1000px) {
+    .form-contact .form-group {
+        margin-bottom: 30px
+    }
+}
 
+.form-contact .form-control {
+    border: 1px solid #f0e9ff;
+    border-radius: 5px;
+    height: 48px;
+    padding-left: 18px;
+    font-size: 13px;
+    background: transparent
+}
 
+.form-contact .form-control:focus {
+    outline: 0;
+    box-shadow: none
+}
+
+.form-contact .form-control::placeholder {
+    font-weight: 300;
+    color: #999999
+}
+
+.form-contact textarea {
+    border-radius: 12px;
+    height: 100% !important
+}
+.contact_form {
+    margin-top: 15px
+}
+.main_btn {
+    display: inline-block;
+    background: #71cd14;
+    padding: 0px 32px;
+    letter-spacing: 0.25px;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 44px;
+    outline: none !important;
+    box-shadow: none !important;
+    text-align: center;
+    border: 1px solid #71cd14;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all 300ms linear 0s;
+    border-radius: 5px
+}
+
+.main_btn:hover {
+    background: transparent;
+    color: #71cd14
+}
+.contact-info {
+    margin-bottom: 12px
+}
+
+.contact-info__icon {
+    margin-right: 20px
+}
+
+.contact-info__icon i,
+.contact-info__icon span {
+    color: #8f9195;
+    font-size: 27px
+}
+
+.contact-info .media-body h3 {
+    font-size: 16px;
+    margin-bottom: 0
+}
+
+.contact-info .media-body h3 a {
+    color: #2a2a2a
+}
+
+.contact-info .media-body p {
+    color: #999999
+}
 
 
