@@ -64,12 +64,13 @@ body
 {
     display: inline-flex;
     float: right;
+    margin-top: 5px;
 }
 .menu-bar ul li
 {
     border-left: 1px solid #fff;
     list-style-type: none;
-    padding: 15px 35px;
+    padding: 10px 10px;
     text-align: center;
     background-color: orange;
     cursor: pointer;
