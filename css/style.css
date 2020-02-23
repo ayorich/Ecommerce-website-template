@@ -456,7 +456,8 @@ body
 
 /*----------------------new css----------------*/
  .form-group {
-    margin-bottom: 30px
+    margin-bottom: 30px;
+
 }
 .form-control {
     height: 50px;
@@ -465,7 +466,8 @@ body
     color: #999999;
     padding-left: 20px;
     border-radius: 0;
-    border-right: 0
+    border-right: 0;
+    width: 100%;
 }
 .form-contact label {
     color: #71cd14;
@@ -481,22 +483,67 @@ body
         margin-bottom: 30px
     }
 }
+.textarea{
+     border-color:#55c57a;
+     padding-left: 20px;
+     outline: none;
+}
+.subject-control {
+     height: 48px;
+    padding-left: 18px;
+    font-size: 13px;
+    background: transparent;
+    margin-top: 9px;
+    margin-bottom: 20px;
+    outline: none;
+    border: 1px solid #55c57a !important;
+    width: 100%;
+    border-top-left-radius: 20px !important;
+    border-bottom-left-radius: 20px !important;
+    border-top-right-radius: 20px !important;
+    border-bottom-right-radius: 20px !important;
+}
 
-.form-contact .form-control {
-    border: 1px solid #f0e9ff;
-    border-radius: 5px;
+
+.contact-control-left{
     height: 48px;
     padding-left: 18px;
     font-size: 13px;
-    background: transparent
+    background: transparent;
+    margin-top: 9px;
+    margin-bottom: 20px;
+    outline: none;
+    border: 1px solid #55c57a !important;
+    width: 100%;
+    border-top-left-radius: 20px !important;
+    border-bottom-left-radius: 20px !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    
+}
+.contact-control-right {
+    height: 48px;
+    padding-left: 18px;
+    font-size: 13px;
+    background: transparent;
+    margin-top: 9px;
+    margin-bottom: 20px;
+    outline: none;
+    border: 1px solid #55c57a !important;
+    width: 100%;
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+    border-top-right-radius: 20px !important;
+    border-bottom-right-radius: 20px !important;
 }
 
-.form-contact .form-control:focus {
-    outline: 0;
+.form-contact .form-control:focus .contact-control-left:focus
+.contact-control-right:focus{
+    outline: none !important;
     box-shadow: none
 }
 
-.form-contact .form-control::placeholder {
+.form-contact .form-control::placeholder .contact-control-left::placeholder {
     font-weight: 300;
     color: #999999
 }
@@ -558,5 +605,7 @@ body
 .contact-info .media-body p {
     color: #999999
 }
-
+.contact-title{
+    text-align: center
+}
 
