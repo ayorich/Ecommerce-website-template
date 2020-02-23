@@ -109,14 +109,7 @@
   font-weight: 300;
 }
  
-button[class*=btn] {
-  width: 30px;
-  height: 30px;
-  background-color: #E1E8EE;
-  border-radius: 6px;
-  border: none;
-  cursor: pointer;
-}
+
 .minus-btn i {
   color: red;
 }
@@ -136,6 +129,33 @@ input:focus {
   font-size: 16px;
   color: #43484D;
   font-weight: 300;
+}
+.order-cart{
+    text-align: center;
+    /* margin-top: 1rem; */
+}
+.btn-cart{
+    display: inline-block;
+    background: #55c57a;
+    padding: 0px 32px;
+    letter-spacing: 0.25px;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    line-height: 44px;
+    outline: none !important;
+    box-shadow: none !important;
+    text-align: center;
+    border: 1px solid #55c57a;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all 300ms linear 0s;
+    width:100%;
+    font-weight: bold;
+    font-size: 1.2rem; 
+}
+.btn-cart:hover {
+    background: transparent;
+    color: #71cd14
 }
 
 @media (max-width: 800px) {
