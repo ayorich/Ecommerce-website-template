@@ -1,6 +1,6 @@
 .shopping-cart {
   width: 750px;
-  height: 423px;
+  height: auto;
   margin: 80px auto;
   /* background: #55c57a; */
   box-shadow: 1px 2px 3px 2px rgba(0,0,0,0.10);
@@ -26,12 +26,14 @@
   padding: 20px 30px;
   height: 120px;
   display: flex;
-}
- 
-.item:nth-child(3) {
   border-top:  1px solid #E1E8EE;
   border-bottom:  1px solid #E1E8EE;
 }
+ 
+/* .item:nth-child(last) {
+  border-top:  1px solid #E1E8EE;
+  border-bottom:  1px solid red;
+} */
 
 .buttons {
   position: relative;
@@ -44,7 +46,7 @@
 }
 .delete-btn {
   margin-left: 4rem;
-  font-size: 1.7rem;
+  font-size: 1.4rem;
   color:rgb(216, 76, 76);
 }
  
@@ -115,11 +117,11 @@ button[class*=btn] {
   border: none;
   cursor: pointer;
 }
-.minus-btn img {
-  margin-bottom: 3px;
+.minus-btn i {
+  color: red;
 }
-.plus-btn img {
-  margin-top: 2px;
+.plus-btn i {
+  color: #55c57a;
 }
  
 button:focus,
